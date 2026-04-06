@@ -1,5 +1,7 @@
 # 8-Bit Custom Processor with 16-Bit ISA & Multi-Cycle DSP
 
+*(Add your image here: `![Processor Block Diagram](image.png)`)*
+
 A fully custom, ground-up microprocessor designed in Verilog and synthesized for the Xilinx Spartan-7 FPGA. This architecture features an 8-bit datapath governed by a 16-bit Instruction Set Architecture (ISA), utilizing a hybrid Harvard memory structure. 
 
 The crowning feature of this CPU is its **Multi-Cycle DSP capabilities**. It features a custom FSM controller and datapath bypass that enables 3-operand math (`rd = rs1 * rs2 + rs3`) using a standard 2-operand ALU by utilizing micro-operation phase tracking.
