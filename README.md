@@ -1,6 +1,6 @@
 # 8-Bit Custom Processor with 16-Bit ISA & Multi-Cycle DSP
 
-*(Add your image here: `![Processor Block Diagram](docs/image.png)`)*
+![Processor Block Diagram](image.png)
 
 A fully custom, ground-up microprocessor designed in Verilog and synthesized for the Xilinx Spartan-7 FPGA. This architecture features an 8-bit datapath governed by a 16-bit Instruction Set Architecture (ISA), utilizing a hybrid Harvard memory structure. 
 
